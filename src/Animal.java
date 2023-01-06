@@ -51,6 +51,11 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal" + "[" + ration + " " + color + " " + weight + "]";
+        String result = "Animal[";
+        if (ration != null) result += ration + " ";
+        if (color != null) result += color + " ";
+        if (weight != 0) result += weight;
+        result += "]";
+        return result;
     }
 }

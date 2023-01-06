@@ -8,6 +8,11 @@ public class Main {
         cat1.sleep();
         System.out.println(cat1.getWeight());
 
+        Cat cat2 = new Cat("Dart");
+        System.out.println(cat2);
+        cat2.setColor("Grey");
+        System.out.println(cat2);
+
         Dog dog1 = new Dog("Meat", "Brown", 12, "Ric");
         System.out.println(dog1);
         System.out.println(dog1.getName());
