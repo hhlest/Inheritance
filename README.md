@@ -12,7 +12,7 @@ void sleep() (sleep)
 
 Classes Cat, Dog as subclasses of Animal.
 With a new String name field.
-Overerides getVoice(), eat(), sleep() methods.
+Overrides getVoice(), eat(), sleep() methods.
 
 A Veterinarian class.
 Fields:
